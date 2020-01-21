@@ -20,6 +20,10 @@ header {
   padding: 1rem;
 }
 
+.fa-bars {
+  font-size: 20px;
+}
+
 .header-navbar {
   white-space: nowrap;
   flex: 1;
@@ -32,6 +36,11 @@ header {
   display: inline;
   text-transform: uppercase;
   padding: 1rem;
+}
+
+.header-navbar li:hover,
+.fa-envelope:hover {
+  color: #6e6e6e;
 }
 
 .header-title {
@@ -97,7 +106,7 @@ footer {
 }
 
 .fa-envelope {
-  font-size: 16px;
+  font-size: 24px;
 }
 
 .footer-hr {
