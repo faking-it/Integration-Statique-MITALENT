@@ -360,7 +360,7 @@ td {
   border-radius: 50%;
 }
 
-h1 {
+.bruno_carré h1 {
   grid-column: 3;
   grid-row: 1;
   color: white;
