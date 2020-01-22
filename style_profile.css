@@ -1,3 +1,165 @@
+/* Partie Dorian */
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .header-title > h1,
+  .footer-title > h1 {
+    font-family: "Playfair Display", serif;
+  }
+  
+  .background {
+    position: absolute;
+    background: #94bcc29a;
+    width: 50%;
+    height: 24rem;
+    right: 0;
+    z-index: -1;
+  }
+  
+  /* header */
+  header {
+    margin-bottom: 8rem;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+  }
+  
+  .fa-bars {
+    font-size: 20px;
+  }
+  
+  .header-navbar {
+    white-space: nowrap;
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .header-navbar li {
+    display: inline;
+    text-transform: uppercase;
+    padding: 1rem;
+  }
+  
+  .header-navbar li:hover,
+  .fa-envelope:hover {
+    color: #6e6e6e;
+  }
+  
+  .header-title {
+    text-transform: uppercase;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .header-searchbar {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  /* End header */
+  
+  /* footer */
+  footer {
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer-row {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+  }
+  
+  .footer-title {
+    text-transform: uppercase;
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .footer-newsletter {
+    text-transform: uppercase;
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .footer-newsletter p {
+    margin-right: 1rem;
+    font-size: 16px;
+  }
+  
+  .footer-vr-container {
+    height: 100%;
+  }
+  
+  .footer-vr {
+    margin-right: 3rem;
+    height: 1px;
+    background: black;
+    border: none;
+    height: 100%;
+    opacity: 0.2;
+  }
+  
+  .fa-envelope {
+    font-size: 24px;
+  }
+  
+  .footer-hr {
+    border: none;
+    background: black;
+    height: 1px;
+    width: 100%;
+    margin: 0 auto;
+    opacity: 0.1;
+  }
+  
+  .footer-copyright {
+    font-family: "Rubik", sans-serif;
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 18px;
+    opacity: 0.5;
+  }
+  
+  .footer-icons {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 18px;
+    list-style: none;
+  }
+  
+  .footer-icons ul li {
+    margin-right: 1rem;
+    display: inline;
+  }
+  /* End footer */
+
+/* Fin Partie Dorian */
+
+
 /* Partie Antho */
 
 * {
