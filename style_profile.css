@@ -1,0 +1,287 @@
+.bruno_grid_profil {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: 55em 55em 20em;
+    margin-left: 7em;
+    margin-right: 7em;
+}
+
+        .bruno_case1 > img {
+            grid-column: 1;
+            grid-row: 1;
+            margin: 5%;
+            
+        }
+
+        .bruno_case2 {
+            margin: 5%;
+        }
+
+                .bruno_onglets {
+                    position: relative;
+                    display: flex;
+                    flex-wrap: nowrap;
+                    justify-content: space-around;
+                    margin-left: 20%;
+                    margin-right: 20%;
+                    margin-top: 1em;
+                    text-transform: uppercase;
+                    font-size: 1em;
+                    padding-bottom: 2.5em;
+                    padding-top: 2.5em;
+                    color: rgba(0, 0, 0, 0.459);
+                }
+                
+                        .bruno_onglet_profile {
+                            border-bottom: solid black 0.2em ;
+                            padding-left: 2em;
+                            padding-right: 2em;
+                            padding-bottom: 1em;
+                            color: black;
+                        }
+                
+                        .bruno_onglet_press {
+                            padding-left: 2em;
+                            padding-right: 2em;
+                        }
+                
+                        .bruno_onglet_awards {
+                            padding-left: 2em;
+                            padding-right: 2em;
+                        }
+                
+                        .bruno_onglet_creadits {
+                            padding-left: 2em;
+                            padding-right: 2em;
+                        }
+
+                .bruno_conteneur_logos {
+                    top: -25rem;
+                    left: 5rem;
+                    text-align: right;
+                    position: relative;
+                    z-index: 1;
+                    
+                }
+                    .bruno_logos {
+                    display: flex;
+                    flex-direction: column;
+                    margin-top: 0;
+                    margin-left: 2rem;
+                    height: 35rem;
+                    }
+
+                    .fab-bruno {
+                    color: #000133;
+                    padding-bottom: 2rem;
+                    font-size: 1rem;
+                    }
+
+                .bruno_case2_texte {
+                    margin-left: 15%;
+                    margin-right: 15%;
+                    text-align: justify;
+                }
+
+                        .bruno_case2_texte > h1 {
+                            font-size: 3.2em;
+                        }
+                
+                        .bruno_case2_texte > p {
+                            color: rgba(0, 0, 0, 0.521);
+                            line-height: 1.5em;
+                        }
+
+        .bruno_case3 {
+            margin-top: 10%;
+            margin-right: 17%;
+            margin-left: 17%;
+            margin-bottom: 17%;
+        }
+
+            .bruno_case3 > h1 {
+                font-size: 3.2em;
+            }
+            
+            .bruno_ligne {
+                width: 6em;
+                border-bottom: solid black 0.1em ;
+            }
+
+            .bruno_case3_image {
+                display: flex;
+                justify-content: space-around;
+                width: 15em;
+                height: 10em;
+                padding-top: 1em;
+                padding-bottom: 1em;
+                padding-right: 1em;
+            }
+
+            .bruno_case3_légende {
+                width: 15em;
+                margin: 5%;
+                font-size: 1.3em;
+            }
+
+            .bruno_case3_légende > h4 {
+                font-size: 1.2em;
+                color: #7ba0c4b2;
+            }    
+
+            .bruno_case3_légende > p {
+                font-size: 1em;
+                color: rgba(0, 0, 0, 0.534);
+            }
+
+            .bruno_case4 > img {
+                grid-column: 2;
+                grid-row: 2;
+                margin: 5%;
+                padding-left: 14%;
+            }
+
+        .bruno_exploremore {
+            text-transform: uppercase;
+            font-size: 1em;
+        }
+
+        .bruno_case5 {
+            margin-top: 10%;
+            margin-right: 17%;
+            margin-left: 17%;
+            margin-bottom: 17%;
+        }
+
+            .bruno_case5 > h1 {
+                font-size: 3.2em;
+            }
+
+        .bruno_case6 {
+            position: relative;
+            left: 12%;
+            top: 6%;
+            margin-top: 10%;
+            margin-right: 17%;
+            margin-left: 17%;
+            margin-bottom: 17%;
+        }
+
+            .bruno_case6 > p {
+                color: #00000085;
+                line-height: 1.5em;
+            }
+
+/* Le grid qui permet de placer les images des profils */
+.bruno_profils {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: 25em;
+    margin-left: 7em;
+    margin-right: 7em;
+}
+    
+        .bruno_profil1 > img{
+            grid-column: 1;
+            grid-row: 1;
+        }
+
+        .bruno_profil2 > img {
+            grid-column: 2;
+            grid-row: 1;
+        }
+
+        .bruno_profil3 > img {    
+            grid-column: 3;
+            grid-row: 1;
+            position: relative;
+            z-index: 0;
+        }
+
+        .bruno_profil4 > img {
+            grid-column: 4;
+            grid-row: 1;
+        }
+
+    /* Le filtre bleu sur le profil n°3, avec nom + profession */
+
+        .bruno_carre {
+            grid-column: 3;
+            grid-row: 1;
+            width: 50%;
+            height: 100%;
+            background-color: #000000c9;
+            position: absolute;
+            z-index: 1;
+        }
+
+            .bruno_carre > img {
+                grid-column: 3;
+                grid-row: 1;
+                color: white;
+                position: absolute;
+                z-index: 2;
+                margin-top: unset;
+                margin-bottom: unset;
+                top: 0.9em;
+                left: 14.5em;
+                background-color: white;
+                padding: 1em;
+                border-radius: 50%;
+                
+            }
+
+            .bruno_carre > h1 {
+                grid-column: 3;
+                grid-row: 1;
+                color: white;
+                position: absolute;
+                z-index: 2;
+                width: 100%;
+                height: 100%;
+                margin-top: unset;
+                margin-bottom: unset;
+                text-align: center;
+                top: 9.5em;
+            }
+
+            .bruno_sous-titre {
+                grid-column: 3;
+                grid-row: 1;
+                color: #9c9c9c;
+                font-size: 1.3em;
+                position: absolute;
+                z-index: 2;
+                width: 100%;
+                height: 100%;
+                margin-top: unset;
+                margin-bottom: unset;
+                text-align: center;
+                top: 16.75em;
+                text-transform: uppercase;
+            }
+
+.bruno_ronds {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 4%;
+}
+
+    .rond-bruno {
+        position: relative;
+        top:-0.35em;
+        margin: 1.4em;
+        color: #b6b6b6b9;
+        font-size: 0.4em;
+    }
+
+    .gros-rond-bruno {
+        position: relative;
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+        color: #94bce2b6;
+        font-size: 0.9em;
+    }
