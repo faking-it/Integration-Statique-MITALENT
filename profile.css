@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.antho {
+  display: grid;
+  grid-template-rows: 10% 20% 20% 20% 10% 10% 10%;
+  grid-template-columns: 10% 10% 10% 20% 20% 20% 10%;
+  height: 40rem;
+}
+.table-anth {
+  width: 5rem;
+  grid-area: 5 / 1 / 7 / 2;
+}
+.line-anth {
+  padding-right: 1.6rem;
+  font-weight: bold;
+  font-size: 1rem;
+}
+td {
+  padding-bottom: 0.9rem;
+}
+.arrow {
+  grid-row-start: 6;
+  grid-column-start: 2;
+  border: none;
+}
+.arrow button {
+  display: inline-block;
+  background-image: url(blanc2.jpg);
+  border: none;
+  cursor: pointer;
+  height: 100%;
+  width: 40%;
+}
+.fas {
+  font-size: 0.9rem;
+}
+.centre-anth {
+  display: grid;
+  grid-template-rows: 5% 23% 44% 14% 14%;
+  grid-template-columns: 28% 44% 20% 8%;
+  background-image: url(steve.jpg);
+  grid-area: 2 / 3 / 7 / 7;
+}
+.text-anth {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  margin-left: -3rem;
+  grid-row-start: 3;
+  grid-column-start: 1;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.play-anth {
+  grid-row-start: 5;
+  grid-column-start: 4;
+}
+.play-anth button {
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+}
+.triangle-anth {
+  width: 3rem;
+  height: 3rem;
+}
+.enquire {
+  grid-row-start: 5;
+  grid-column-start: 1;
+}
+.enquire button {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  color: #94bcc29a;
+  background-image: url(blanc2.jpg);
+  border: none;
+  font-weight: bold;
+}
+.text-anth p {
+  font-size: 15px;
+  margin-top: 2rem;
+}

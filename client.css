@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.antho {
+  display: grid;
+  height: 40rem;
+  grid-template-rows: 10% 20% 20% 20% 17% 13%;
+  grid-template-columns: 5% 8% 22% 25% 25% 5% 10%;
+}
+.logos-anth {
+  grid-area: 2 / 2 / 6 / 2;
+  display: flex;
+  flex-direction: column;
+}
+.fab-antho {
+  color: #000133;
+  padding-bottom: 2rem;
+  font-size: 1rem;
+}
+.hr-anth {
+  height: 40px;
+  margin-left: 0.5rem;
+  margin-bottom: 6rem;
+  margin-top: 3rem;
+  border: none;
+  background-color: black;
+}
+.rotate-anth {
+  transform: rotate(270deg);
+  margin-right: 6rem;
+}
+.cadre {
+  display: grid;
+  grid-area: 2 / 3 / 5 / 5;
+  background-image: url(blanc2.jpg);
+  grid-template-rows: 10% 20% 20% 26% 14% 10%;
+  grid-template-columns: 10% 20% 20% 20% 20% 10%;
+}
+.text-anth {
+  grid-area: 2 / 2 / 5 / 5;
+}
+.h1-anth {
+  margin-left: 3rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 4rem;
+  margin-top: 3rem;
+}
+.text-anth p {
+  margin-left: 3rem;
+}
+.text-anth button {
+  margin-left: 3rem;
+  width: 13rem;
+  height: 3rem;
+  background-color: #94bcc29a;
+  color: white;
+}
+.barre {
+  margin-left: 4rem;
+  font-size: 1rem;
+  color: #94bcc29a;
+}
+.model-anth {
+  grid-area: 2 / 5 / 5 / 7;
+}
+.resize {
+  width: 100%;
+  height: 100%;
+}
+.georgina {
+  grid-row-start: 5;
+  grid-column-start: 5;
+  background: linear-gradient(90deg, #e6f2ff, grey);
+}
+.georgina p {
+  margin-top: 2rem;
+}
+.georgina h2 {
+  margin-left: 6rem;
+  font-family: "Montserrat", sans-serif;
+}
+.georgina .young {
+  margin-left: 2rem;
+  font-size: 0.7rem;
+}
+.arrow {
+  grid-row-start: 5;
+  grid-column-start: 6;
+}
+.arrow button {
+  width: 100%;
+  height: 50%;
+  background-image: url(blanc2.jpg);
+  border: none;
+}
+.fas {
+  font-size: 1rem;
+}
