@@ -4,8 +4,7 @@
 }
 .antho {
   display: grid;
-  height: 40rem;
-  grid-template-rows: 10% 20% 20% 20% 17% 13%;
+  grid-template-rows: 10% 20% 20% 20% 17% 7% 6%;
   grid-template-columns: 5% 8% 22% 25% 25% 5% 10%;
 }
 .logos-anth {
@@ -13,10 +12,17 @@
   display: flex;
   flex-direction: column;
 }
+.logos-anth div {
+  height: 2rem;
+  margin-bottom: 1.5rem;
+}
 .fab-antho {
   color: #000133;
-  padding-bottom: 2rem;
+  cursor: pointer;
   font-size: 1rem;
+}
+.fab-antho:hover {
+  font-size: 1.5rem;
 }
 .hr-anth {
   height: 40px;
@@ -30,10 +36,10 @@
   transform: rotate(270deg);
   margin-right: 6rem;
 }
-.cadre {
+.cadre-anth {
   display: grid;
   grid-area: 2 / 3 / 5 / 5;
-  background-image: url(blanc2.jpg);
+  background-image: url(images/blanc2.jpg);
   grid-template-rows: 10% 20% 20% 26% 14% 10%;
   grid-template-columns: 10% 20% 20% 20% 20% 10%;
 }
@@ -53,10 +59,14 @@
   margin-left: 3rem;
   width: 13rem;
   height: 3rem;
+  cursor: pointer;
   background-color: #94bcc29a;
   color: white;
 }
-.barre {
+.text-anth button:hover {
+  background-color: #4d6d729f;
+}
+.barre-anth {
   margin-left: 4rem;
   font-size: 1rem;
   color: #94bcc29a;
@@ -64,7 +74,7 @@
 .model-anth {
   grid-area: 2 / 5 / 5 / 7;
 }
-.resize {
+.resize-anth {
   width: 100%;
   height: 100%;
 }
@@ -91,9 +101,56 @@
 .arrow button {
   width: 100%;
   height: 50%;
+  cursor: pointer;
   background-image: url(blanc2.jpg);
   border: none;
 }
+.arrow button:hover {
+  background-image: none;
+}
 .fas {
   font-size: 1rem;
+}
+.titres-anth {
+  display: flex;
+  grid-area: 7 / 3 / 8 / 6;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.titres-anth div {
+  cursor: pointer;
+  width: 7rem;
+  height: 1.7rem;
+}
+.titres-anth div:hover {
+  border-bottom: 2px solid black;
+}
+.word:hover {
+  font-weight: bold;
+}
+.word {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+.logos-anth2 {
+  grid-row-start: 7;
+  grid-column-start: 6;
+}
+.fas2 {
+  padding-left: 1rem;
+  cursor: pointer;
+}
+.fa-bars {
+  color: lightgray;
+}
+.antho2 {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 4rem;
+}
+.img {
+  width: 200px;
+  height: 200px;
+  max-width: 100%;
 }
