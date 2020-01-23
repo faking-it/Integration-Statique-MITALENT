@@ -27,7 +27,6 @@
   
   /* header */
   header {
-    margin-bottom: 8rem;
     display: flex;
     flex-direction: row;
     padding: 1rem;
@@ -204,7 +203,7 @@
     display: grid;
     grid-template-rows: 5% 23% 44% 14% 14%;
     grid-template-columns: 28% 44% 24% 12%;
-    background-image: url(assets/images/steve.jpg);
+    background-image: url(../../assets/images/steve.jpg);
     grid-area: 2 / 3 / 7 / 7;
   }
   .text-anth {
@@ -396,10 +395,13 @@
                 padding-left: 14%;
             }
 
-        .bruno_exploremore {
-            text-transform: uppercase;
+          .bruno_exploremore > button {
+            border: none;
+            background: none;
+            cursor: pointer;
             font-size: 1em;
-        }
+            text-transform: uppercase;
+          }
 
         .bruno_case5 {
             margin-top: 10%;
