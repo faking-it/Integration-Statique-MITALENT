@@ -346,7 +346,7 @@ td {
 
 /* Le filtre bleu sur le profil n°3, avec nom + profession */
 
-.bruno_carré {
+.bruno_carre {
   grid-column: 3;
   grid-row: 1;
   width: 50%;
@@ -356,22 +356,22 @@ td {
   z-index: 1;
 }
 
-.bruno_carré > i {
+.bruno_carre > i {
   grid-column: 3;
   grid-row: 1;
-  color: white;
+  color: black;
   position: absolute;
   z-index: 2;
   margin-top: unset;
   margin-bottom: unset;
-  top: 0.9em;
-  left: 14.5em;
+  top: 3%;
+  left: 77.5%;
   background-color: white;
   padding: 1em;
   border-radius: 50%;
 }
 
-.bruno_carré h1 {
+.bruno_carre h1 {
   grid-column: 3;
   grid-row: 1;
   color: white;

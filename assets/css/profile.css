@@ -472,20 +472,19 @@
             z-index: 1;
         }
 
-            .bruno_carre > img {
-                grid-column: 3;
-                grid-row: 1;
-                color: white;
-                position: absolute;
-                z-index: 2;
-                margin-top: unset;
-                margin-bottom: unset;
-                top: 0.9em;
-                left: 14.5em;
-                background-color: white;
-                padding: 1em;
-                border-radius: 50%;
-                
+            .bruno_carre > i {
+              grid-column: 3;
+              grid-row: 1;
+              color: white;
+              position: absolute;
+              z-index: 2;
+              margin-top: unset;
+              margin-bottom: unset;
+              top: 3%;
+              left: 80%;
+              background-color: #94bce29a;
+              padding: 1em;
+              border-radius: 50%;
             }
 
             .bruno_carre > h1 {

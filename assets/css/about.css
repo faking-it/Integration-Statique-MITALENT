@@ -240,10 +240,9 @@ li {
   right: 0;
   margin: 1.5rem 1.5rem;
   color: white;
-  padding: 2rem;
+  padding: 1.5rem;
   border-radius: 50%;
   background: #94bcc2;
-  transform: rotate(-45deg);
 }
 
 /* End carousel */
