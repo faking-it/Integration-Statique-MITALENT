@@ -10,8 +10,8 @@ a {
   color: inherit;
 }
 
-.header-title>h1,
-.footer-title>h1 {
+.header-title > h1,
+.footer-title > h1 {
   font-family: "Playfair Display", serif;
 }
 
@@ -19,7 +19,7 @@ a {
   position: absolute;
   background: #94bcc29a;
   width: 1143px;
-  height: 1038px;
+  height: 1006px;
   left: 0;
   top: 0;
   z-index: -1;
@@ -30,7 +30,6 @@ header {
   margin-bottom: 8rem;
   display: flex;
   flex-direction: row;
-  padding: 1rem;
 }
 
 .fa-bars {
@@ -62,7 +61,7 @@ header {
   color: black;
 }
 
-.deroulant>a:hover {
+.deroulant > a:hover {
   color: #6e6e6e;
 }
 
@@ -81,7 +80,7 @@ header {
   font-size: 1rem;
 }
 
-.sous>li>a:hover {
+.sous > li > a:hover {
   color: lightgrey;
   cursor: pointer;
 }
@@ -96,7 +95,7 @@ header {
   padding: 0;
 }
 
-nav>ul li:hover .sous {
+nav > ul li:hover .sous {
   display: flex;
   flex-direction: column;
 }
@@ -117,7 +116,7 @@ nav>ul li:hover .sous {
   border-bottom: none;
 }
 
-.deroulant>a::after {
+.deroulant > a::after {
   font-size: 2rem;
 }
 
@@ -238,6 +237,7 @@ footer {
   grid-area: 2 / 2 / 6 / 2;
   display: flex;
   flex-direction: column;
+  margin-left: -80px;
 }
 
 .logos-anth div {
@@ -266,7 +266,7 @@ footer {
 
 .rotate-anth {
   transform: rotate(270deg);
-  margin-right: 8rem;
+  margin-right: 13rem;
 }
 
 .cadre-anth {
@@ -462,7 +462,7 @@ footer {
   grid-row: 8/16;
 }
 
-.bruno_grid>h1 {
+.bruno_grid > h1 {
   grid-column: 5/12;
   grid-row: 6/9;
   font-size: 3em;
