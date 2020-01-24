@@ -239,7 +239,7 @@ header {
 
 .m-bgc {
   height: 290px;
-  width: 160px;
+  width: 249px;
   background-color: #c4dcde;
   position: absolute;
   top: 25%;
@@ -258,8 +258,8 @@ header {
   font-weight: bold;
   font-size: 16px;
   position: absolute;
-  top: 91%;
-  left: 18%;
+  top: 90.6%;
+  left: 10.9%;
   opacity: 1;
 }
 
@@ -272,8 +272,8 @@ header {
   width: 100px;
   background-color: white;
   position: absolute;
-  top: 91%;
-  left: 32.5%;
+  top: 90.6%;
+  left: 22%;
 }
 
 .m-wbg img {
