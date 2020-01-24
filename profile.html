@@ -1,266 +1,332 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
+  <head>
+    <meta charset="utf-8" />
+    <title>Profile</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="assets/css/profile.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat|Rubik:300|Roboto:300,400,500,700|Playfair+Display:700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/960ffcdeb4.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Espace ultra-fine -> &#x200A; -->
+    <title>MI&#x200A;Talent</title>
+  </head>
 
-        <meta charset = "utf-8">
-        <title>Profile</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <link href="assets/css/profile.css" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
-        <script src="https://kit.fontawesome.com/960ffcdeb4.js" crossorigin="anonymous"></script>
-        <!-- Espace ultra-fine -> &#x200A; -->
-        <title>MI&#x200A;Talent</title>
+  <body>
+    <!-- Partie Dorian -->
 
-    </head>
+    <div class="background"></div>
 
-    <body>
+    <header>
+      <!-- Navbar -->
 
-        <!-- Partie Dorian -->
-
-        <div class="background"></div>
-
-        <header>
-
-        <!-- Navbar -->
-
-        <nav class="header-navbar">
-        <ul>
-          <li>
-            <a href="#"><i class="fas fa-bars"></i></a>
+      <nav class="header-navbar">
+        <ul class="ul_deroulant">
+          <li class="deroulant">
+            <a class="a_deroulant" href="#"> <i class="fas fa-bars"></i></a>
+            <ul class="sous">
+              <li>
+                <a
+                  class="a_deroulant"
+                  onclick="window.location.href = 'index.html';"
+                  >Homepage</a
+                >
+              </li>
+              <li>
+                <a
+                  class="a_deroulant"
+                  onclick="window.location.href = 'client.html';"
+                  >Client</a
+                >
+              </li>
+              <li>
+                <a
+                  class="a_deroulant"
+                  onclick="window.location.href = 'about.html';"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a
+                  class="a_deroulant"
+                  onclick="window.location.href = 'contact.html';"
+                  >Contact</a
+                >
+              </li>
+            </ul>
           </li>
+
           <li><a href="#">clients</a></li>
           <li><a href="#">news</a></li>
         </ul>
-        </nav>
-        <!-- End Navbar -->
-        <div class="header-title">
-            <h1>MI&#x200A;Talent</h1>
+      </nav>
+      <!-- End Navbar -->
+      <div class="header-title">
+        <h1>MI&#x200A;Talent</h1>
+      </div>
+
+      <!-- Searchbar -->
+      <div class="header-searchbar">
+        <i class="fas fa-search"></i>
+      </div>
+      <!-- End Searchbar -->
+    </header>
+
+    <!-- Fin Partie Dorian -->
+
+    <!-- Partie Antho -->
+
+    <div class="antho">
+      <div class="table-anth">
+        <table>
+          <tr>
+            <td></td>
+            <td>01</td>
+          </tr>
+          <tr>
+            <td><span class="line-anth">─</span></td>
+            <td style="font-weight: bold;">02</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>03</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>04</td>
+          </tr>
+        </table>
+      </div>
+      <div class="arrow">
+        <button><i class="fas fa-arrow-left"></i></button>
+        <button><i class="fas fa-arrow-right"></i></button>
+      </div>
+      <div class="centre-anth">
+        <div class="text-anth">
+          <h1>Steve<br />Jobs</h1>
+          <p>Apple Foundator</p>
+        </div>
+        <div class="play-anth">
+          <button>
+            <img class="triangle-anth" src="assets/images/triangle.svg" />
+          </button>
+        </div>
+        <div class="enquire">
+          <button>ENQUIRE ABOUT STEVE</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Partie Antho Fin -->
+
+    <!-- Partie Bruno -->
+
+    <div class="bruno_grid_profil">
+      <div class="bruno_case1">
+        <img src="assets/images/Stevie1.jpg" width="90%" height="90%" />
+      </div>
+
+      <div class="bruno_case2">
+        <div class="bruno_onglets">
+          <div class="bruno_onglet_profile">Profile</div>
+          <div class="bruno_onglet_press">Press</div>
+          <div class="bruno_onglet_awards">Awards</div>
+          <div class="bruno_onglet_creadits">Creadits</div>
         </div>
 
-        <!-- Searchbar -->
-        <div class="header-searchbar">
-            <i class="fas fa-search"></i>
-        </div>
-        <!-- End Searchbar -->
-        </header>
-
-        <!-- Fin Partie Dorian -->
-
-
-
-        <!-- Partie Antho -->
-
-        <div class="antho">
-            <div class="table-anth">
-                <table>
-                    <tr>
-                        <td></td>
-                        <td>01</td>
-                    </tr>
-                    <tr>
-                        <td><span class="line-anth">─</span></td>
-                        <td style="font-weight: bold;">02</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>03</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>04</td>
-                    </tr>
-                </table>
-            </div>
-            <div class="arrow">
-                <button><i class="fas fa-arrow-left"></i></button>
-                <button><i class="fas fa-arrow-right"></i></button>
-            </div>
-            <div class="centre-anth">
-                <div class="text-anth">
-                    <h1>Steve<br />Jobs</h1>
-                    <p>Apple Foundator</p>
-                </div>
-                <div class="play-anth">
-                    <button><img class="triangle-anth" src="assets/images/triangle.svg" /></button>
-                </div>
-                <div class="enquire">
-                    <button>ENQUIRE ABOUT STEVE</button>
-                </div>
-            </div>
+        <div class="bruno_case2_texte">
+          <h1>Profile.</h1>
+          <h2>
+            Steve Jobs was an American business magnate, industrial designer,
+            investor, and media proprietor.
+          </h2>
+          <h3><i class="far fa-star"></i> National Medal of Technology 1985</h3>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.<br /><br />
+            Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillium dolore eu figiat nulla pariatur. Excepteur sint occaecat
+            cupidatat non proident. Sunt in culpa qui occicia deserunt mollit
+            anim id est laborum. Sed ut perspiciatis unde omnis iste natus error
+            sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+            eaque ipsa quae ab illo inventore veritatis et quasi architecto
+            beatvae vitae dicta sunt explicabo. Nemo enim ipsam.
+          </p>
         </div>
 
-        <!-- Partie Antho Fin -->
+        <div class="bruno_conteneur_logos">
+          <div class="bruno_logos">
+            <a href="#"><i class="fab fab-bruno fa-facebook-square"></i></a>
+            <a href="#"><i class="fab fab-bruno fa-instagram"></i></a>
+            <a href="#"><i class="fab fab-bruno fa-youtube"></i></a>
+            <a href="#"><i class="fab fab-bruno fa-twitter"></i></a>
+          </div>
+        </div>
+      </div>
 
-        <!-- Partie Bruno -->
+      <div class="bruno_case3">
+        <h1>Steve Jobs on Press</h1>
+        <div class="bruno_ligne"></div>
+        <br /><br /><br />
 
-        <div class="bruno_grid_profil">
+        <table style="text-align: justify;">
+          <tr>
+            <td class="bruno_case3_image">
+              <img
+                src="assets/images/stevie3.jpeg"
+                width="100%"
+                height="100%"
+              />
+            </td>
+            <td>
+              <div class="bruno_case3_légende">
+                <h3>
+                  29 Motivational Quotes for Business And Other Work
+                  Environments
+                </h3>
+                <p>8 March, 2020</p>
+              </div>
+            </td>
+          </tr>
 
-            <div class="bruno_case1"><img src="assets/images/Stevie1.jpg" width="90%" height="90%"></div>
-            
-            <div class="bruno_case2">
+          <tr>
+            <td class="bruno_case3_image">
+              <img src="assets/images/play.png" width="100%" height="100%" />
+            </td>
+            <td>
+              <div class="bruno_case3_légende">
+                <h4>5 Reasons To Keep Your Beauty Salon Reservation</h4>
+                <p>8 March, 2020</p>
+              </div>
+            </td>
+          </tr>
+        </table>
 
-                <div class="bruno_onglets">
-                    <div class="bruno_onglet_profile">Profile</div>
-                    <div class="bruno_onglet_press">Press</div>
-                    <div class="bruno_onglet_awards">Awards</div>
-                    <div class="bruno_onglet_creadits">Creadits</div>
-                </div>
+        <br />
+        <div class="bruno_exploremore">
+          Explore more <i class="fas fa-arrow-right"></i>
+        </div>
+      </div>
 
-                <div class="bruno_case2_texte">
+      <div class="bruno_case4">
+        <img src="assets/images/stevie2.jpg" width="90%" height="90%" />
+      </div>
 
-                    <h1>Profile.</h1>
-                    <h2>Steve Jobs was an American business magnate, industrial designer, investor, and media proprietor.</h2>
-                    <h3><i class="far fa-star"></i> National Medal of Technology 1985</h3><br>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillium dolore eu figiat nulla pariatur. Excepteur sint occaecat cupidatat non proident. Sunt in culpa qui occicia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatvae vitae dicta sunt explicabo. Nemo enim ipsam.
-                    </p>
-                </div>
+      <div class="bruno_case5">
+        <h1>Similar Clients</h1>
+        <div class="bruno_ligne"></div>
+      </div>
 
-                <div class="bruno_conteneur_logos">
+      <div class="bruno_case6">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+        <br />
+        <div class="bruno_exploremore">
+          <button onclick="window.location.href = 'client.html';">
+            Explore more <i class="fas fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
 
-                    <div class="bruno_logos">
+    <div class="bruno_profils">
+      <div class="bruno_profil1">
+        <img src="assets/images/Profil1.jpg" width="100%" height="100%" />
+      </div>
+      <div class="bruno_profil2">
+        <img src="assets/images/Profil2.jpg" width="100%" height="100%" />
+      </div>
+      <div class="bruno_profil3">
+        <img src="assets/images/Profil3.jpg" width="100%" height="100%" />
+      </div>
+      <div class="bruno_profil4">
+        <img src="assets/images/Profil4.jpg" width="100%" height="100%" />
+      </div>
 
-                      <a href="#"><i class="fab fab-bruno fa-facebook-square"></i></a>
-                      <a href="#"><i class="fab fab-bruno fa-instagram"></i></a>
-                      <a href="#"><i class="fab fab-bruno fa-youtube"></i></a>
-                      <a href="#"><i class="fab fab-bruno fa-twitter"></i></a>
-                    
-                    </div>
+      <div class="bruno_carre">
+        <img src="assets/images/flèche.png" width="5%" height="5%" />
+        <h1>Keith Ruiz</h1>
+        <div class="bruno_sous-titre">Comedian</div>
+      </div>
+    </div>
 
-                </div>
+    <div class="bruno_conteneur_ronds">
+      <div class="bruno_ronds">
+        <a href="#"><i class="fab rond-bruno fas fa-circle"></i></a>
+        <a href="#"><i class="fab gros-rond-bruno fas fa-circle"></i></a>
+        <a href="#"><i class="fab rond-bruno fas fa-circle"></i></a>
+        <a href="#"><i class="fab rond-bruno fas fa-circle"></i></a>
+      </div>
+    </div>
 
-            </div>
+    <!-- Partie Bruno Fin -->
 
-            <div class="bruno_case3">
+    <!-- Partie Dorian -->
 
-                <h1>Steve Jobs on Press</h1>
-                <div class="bruno_ligne"></div><br><br><br>
+    <!-- Footer -->
+    <footer>
+      <div class="footer-row">
+        <div class="footer-title">
+          <h1>MI&#x200A;Talent</h1>
+        </div>
+        <div class="footer-newsletter">
+          <div class="footer-vr-container">
+            <hr width="1" class="footer-vr" />
+          </div>
 
-                <table style="text-align: justify;">
-                    <tr>
-                        <td class="bruno_case3_image"><img src="assets/images/stevie3.jpeg" width="100%" height="100%"></td>
-                        <td><div class="bruno_case3_légende"><h3>29 Motivational Quotes for Business And Other Work Environments</h3><p>8 March, 2020</p></div></td>
-                    </tr>
-    
-                    <tr>
-                        <td class="bruno_case3_image"><img src="assets/images/play.png" width="100%" height="100%"></td>
-                        <td><div class="bruno_case3_légende"><h4>5 Reasons To Keep Your Beauty Salon Reservation</h4><p>8 March, 2020</p></div></td>
-                    </tr>
-                </table><br>
-                <div class="bruno_exploremore">Explore more <i class="fas fa-arrow-right"></i></div>
+          <p>Sign up our newsletter</p>
+          <i class="far fa-envelope"></i>
+        </div>
+      </div>
 
-            </div>
+      <div class="footer-row">
+        <hr class="footer-hr" />
+      </div>
 
-            <div class="bruno_case4"><img src="assets/images/stevie2.jpg" width="90%" height="90%"></div>
-            
-            <div class="bruno_case5">
-
-                <h1>Similar Clients</h1>
-                <div class="bruno_ligne"></div>
-            
-            </div>
-
-            <div class="bruno_case6">
-
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><br>
-                    <div class="bruno_exploremore">
-                        <button onclick="window.location.href = 'client.html';">Explore more <i class="fas fa-arrow-right"></i>
-                    </div>
-            </div>
-
+      <div class="footer-row">
+        <div class="footer-copyright">
+          <p>
+            © 2020 MI&#x200A;Talent. Designed by Becode for Mass Impressions.
+          </p>
         </div>
 
-        <div class="bruno_profils">
-
-            <div class="bruno_profil1"><img src="assets/images/Profil1.jpg" width="100%" height="100%"></div>
-            <div class="bruno_profil2"><img src="assets/images/Profil2.jpg" width="100%" height="100%"></div>
-            <div class="bruno_profil3"><img src="assets/images/Profil3.jpg" width="100%" height="100%"></div>
-            <div class="bruno_profil4"><img src="assets/images/Profil4.jpg" width="100%" height="100%"></div>
-
-            <div class="bruno_carre">
-
-                <i class="fas fa-location-arrow"></i>
-                <h1>Keith Ruiz</h1>
-                <div class="bruno_sous-titre">Comedian</div>
-
-            </div>
-
+        <div class="footer-icons">
+          <ul>
+            <li>
+              <a href="#"><i class="fab fa-facebook-square"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+          </ul>
         </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
 
-        <div class="bruno_conteneur_ronds">
+    <script
+      src="https://kit.fontawesome.com/193f43ca66.js"
+      crossorigin="anonymous"
+    ></script>
 
-            <div class="bruno_ronds">
-
-              <a href="#"><i class="fab rond-bruno fas fa-circle"></i></a>
-              <a href="#"><i class="fab gros-rond-bruno fas fa-circle"></i></a>
-              <a href="#"><i class="fab rond-bruno fas fa-circle"></i></a>
-              <a href="#"><i class="fab rond-bruno fas fa-circle"></i></a>
-
-            </div>
-
-        </div>
-
-        <!-- Partie Bruno Fin -->
-
-        <!-- Partie Dorian -->
-
-        <!-- Footer -->
-        <footer>
-            <div class="footer-row">
-            <div class="footer-title">
-                <h1>MI&#x200A;Talent</h1>
-            </div>
-            <div class="footer-newsletter">
-                <div class="footer-vr-container">
-                <hr width="1" class="footer-vr" />
-                </div>
-    
-                <p>Sign up our newsletter</p>
-                <i class="far fa-envelope"></i>
-            </div>
-            </div>
-    
-            <div class="footer-row">
-            <hr class="footer-hr" />
-            </div>
-    
-            <div class="footer-row">
-            <div class="footer-copyright">
-                <p>
-                © 2020 MI&#x200A;Talent. Designed by Becode for Mass Impressions.
-                </p>
-            </div>
-    
-            <div class="footer-icons">
-                <ul>
-                <li>
-                    <a href="#"><i class="fab fa-facebook-square"></i></a>
-                </li>
-                <li>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                </li>
-                <li>
-                    <a href="#"><i class="fab fa-youtube"></i></a>
-                </li>
-                <li>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                </li>
-                </ul>
-            </div>
-            </div>
-        </footer>
-        <!-- End Footer -->
-    
-        <script
-            src="https://kit.fontawesome.com/193f43ca66.js"
-            crossorigin="anonymous"
-        ></script>
-
-        <!-- Fin Partie Dorian -->
-
-    </body>
-
+    <!-- Fin Partie Dorian -->
+  </body>
 </html>

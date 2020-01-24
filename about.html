@@ -11,6 +11,7 @@
     />
     <title>About</title>
   </head>
+
   <body>
     <div class="tr-square"></div>
 
@@ -18,9 +19,39 @@
     <header>
       <!-- navbar -->
       <nav class="header-navbar">
-        <ul>
-          <li>
-            <a href="#"><i class="fas fa-bars"></i></a>
+        <ul class="ul_deroulant">
+          <li class="deroulant">
+            <a class="a_deroulant" href="#"> <i class="fas fa-bars"></i></a>
+            <ul class="sous">
+              <li>
+                <a
+                  class="a_deroulant"
+                  onclick="window.location.href = 'index.html';"
+                  >Homepage</a
+                >
+              </li>
+              <li>
+                <a
+                  class="a_deroulant"
+                  onclick="window.location.href = 'profile.html';"
+                  >Profile</a
+                >
+              </li>
+              <li>
+                <a
+                  class="a_deroulant"
+                  onclick="window.location.href = 'client.html';"
+                  >Client</a
+                >
+              </li>
+              <li>
+                <a
+                  class="a_deroulant"
+                  onclick="window.location.href = 'contact.html';"
+                  >Contact</a
+                >
+              </li>
+            </ul>
           </li>
           <li><a href="#">clients</a></li>
           <li><a href="#">news</a></li>
@@ -121,7 +152,7 @@
                 <div class="selected">
                   <img src="assets/images/Profil3.jpg" alt="Profil3" />
                   <div class="fondu">
-                    <i class="tr-arrow fas fa-location-arrow"></i>
+                    <i class="tr-arrow fas fa-arrow-right"></i>
                     <div class="description">
                       <h1>Keith Ruiz</h1>
                       <p>Pianist</p>
