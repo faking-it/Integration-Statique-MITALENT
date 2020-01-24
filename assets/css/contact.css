@@ -9,8 +9,8 @@ a {
   color: inherit;
 }
 
-.header-title > h1,
-.footer-title > h1 {
+.header-title>h1,
+.footer-title>h1 {
   font-family: "Playfair Display", serif;
 }
 
@@ -50,6 +50,74 @@ header {
   color: #6e6e6e;
 }
 
+.deroulant {
+  text-align: center;
+  position: relative;
+}
+
+.deroulant>a>i:hover {
+  color: #6e6e6e;
+}
+
+.ul_deroulant::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.a_deroulant {
+  text-decoration: none;
+  color: black;
+  border-bottom: 2px solid transparent;
+  padding: 10px 0px;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.a_deroulant>i {
+  color: white;
+}
+
+.sous>li>a:hover {
+  color: #94bce29a;
+  cursor: pointer;
+}
+
+.sous {
+  display: none;
+  box-shadow: 0px 1px 2px #ccc;
+  background-color: white;
+  position: absolute;
+  width: min-content;
+  z-index: 1000;
+  padding: 0;
+}
+
+nav>ul li:hover .sous {
+  display: flex;
+  flex-direction: column;
+}
+
+.sous li {
+  float: none;
+  width: 100%;
+  text-align: center;
+  padding-left: 0;
+}
+
+.sous a {
+  padding: 10px;
+  border-bottom: none;
+}
+
+.sous a:hover {
+  border-bottom: none;
+}
+
+.deroulant>a::after {
+  font-size: 2rem;
+}
+
 .header-title {
   text-transform: uppercase;
   flex: 1;
@@ -64,6 +132,7 @@ header {
   justify-content: flex-end;
   align-items: center;
 }
+
 /* End header */
 
 .m-continer {
@@ -105,6 +174,7 @@ header {
   padding: 10px;
   font-size: 16px;
 }
+
 .m-nav-bar {
   position: absolute;
   top: 5%;
@@ -196,6 +266,7 @@ header {
   top: 50%;
   left: 49%;
 }
+
 .m-adress {
   position: absolute;
   top: 49.5%;
@@ -366,4 +437,5 @@ footer {
   margin-right: 1rem;
   display: inline;
 }
+
 /* End footer */
